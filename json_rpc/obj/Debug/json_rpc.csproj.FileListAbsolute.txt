@@ -1,0 +1,6 @@
+c:\users\chenz\documents\visual studio 2017\Projects\json_rpc\json_rpc\bin\Debug\json_rpc.exe.config
+c:\users\chenz\documents\visual studio 2017\Projects\json_rpc\json_rpc\bin\Debug\json_rpc.exe
+c:\users\chenz\documents\visual studio 2017\Projects\json_rpc\json_rpc\bin\Debug\json_rpc.pdb
+c:\users\chenz\documents\visual studio 2017\Projects\json_rpc\json_rpc\obj\Debug\json_rpc.csprojResolveAssemblyReference.cache
+c:\users\chenz\documents\visual studio 2017\Projects\json_rpc\json_rpc\obj\Debug\json_rpc.exe
+c:\users\chenz\documents\visual studio 2017\Projects\json_rpc\json_rpc\obj\Debug\json_rpc.pdb
