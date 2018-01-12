@@ -10,20 +10,21 @@ namespace json_rpc
     class Program
     {
         /// <summary>
-        /// API参考：https://github.com/AntShares/AntShares/wiki/API%E5%8F%82%E8%80%83
+        /// API 参考：http://docs.neo.org/zh-cn/node/api.html
+        /// API Reference: http://docs.neo.org/en-us/node/api.html
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            var r = PostWebRequest("http://seed2.antshares.org:10332", "{'jsonrpc': '2.0', 'method': 'getblockcount', 'params': [],  'id': 1}");
+            var r = PostWebRequest("http://seed2.neo.org:10332", "{'jsonrpc': '2.0', 'method': 'getblockcount', 'params': [],  'id': 1}");
             Console.WriteLine(ToGB2312(r));
             Console.ReadLine();
 
-            r = PostWebRequest("http://seed2.antshares.org:10332", "{'jsonrpc': '2.0', 'method': 'getbestblockhash', 'params': [],  'id': 2}");
+            r = PostWebRequest("http://seed2.neo.org:10332", "{'jsonrpc': '2.0', 'method': 'getbestblockhash', 'params': [],  'id': 2}");
             Console.WriteLine(ToGB2312(r));
             Console.ReadLine();
 
-            r = PostWebRequest("http://seed2.antshares.org:10332", "{'jsonrpc': '2.0', 'method': 'getrawtransaction', 'params': ['c56f33fc6ecfcd0c225c4ab356fee59390af8560be0e930faebe74a6daff7c9b', 1],  'id': 3}");
+            r = PostWebRequest("http://seed2.neo.org:10332", "{'jsonrpc': '2.0', 'method': 'getrawtransaction', 'params': ['c56f33fc6ecfcd0c225c4ab356fee59390af8560be0e930faebe74a6daff7c9b', 1],  'id': 3}");
             Console.WriteLine(ToGB2312(r));
             Console.ReadLine();
         }
