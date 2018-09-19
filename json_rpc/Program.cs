@@ -10,8 +10,8 @@ namespace json_rpc
     class Program
     {
         /// <summary>
-        /// API 参考：http://docs.neo.org/zh-cn/node/api.html
-        /// API Reference: http://docs.neo.org/en-us/node/api.html
+        /// API 参考：http://docs.neo.org/zh-cn/node/cli/latest-version/api.html
+        /// API Reference: http://docs.neo.org/en-us/node/cli/latest-version/api.html
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
